@@ -1,7 +1,7 @@
 const navLinks = [
   {
-    name: "Work",
-    link: "#work",
+    name: "Projects",
+    link: "#projects",
   },
   {
     name: "Experience",
@@ -11,10 +11,7 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
+ 
 ];
 
 const words = [
@@ -120,8 +117,8 @@ const techStackIcons = [
     rotation: [0, 0, 0],
   },
   {
-    name: "Python Developer",
-    modelPath: "/models/python-transformed.glb",
+    name: "Java Developer",
+    modelPath: "/models/java.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
@@ -132,7 +129,7 @@ const techStackIcons = [
     rotation: [0, -Math.PI / 2, 0],
   },
   {
-    name: "Interactive Developer",
+    name: "ThreeJS Developer",
     modelPath: "/models/three.js-transformed.glb",
     scale: 0.05,
     rotation: [0, 0, 0],
@@ -147,9 +144,9 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-    imgPath: "/images/exp1.png",
-    logoPath: "/images/logo1.png",
+    review: "As a frontend developer I have learned to work with HTML, CSS and JS, and I have used ReactJS too. I have worked on many projects and I am currently working on a project with a team of 5 people. I have learned to work with Figma and I have learned to work with Tailwind CSS.",
+    
+    logoPath: "/images/exp1.webp",
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
@@ -159,27 +156,27 @@ const expCards = [
     ],
   },
   {
-    review: "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "/images/exp2.png",
+    review: "EMS, Sabzee, SaaS etc projects I have done one handedly and with a group also. Learning Node was no better chance to getting hands on projects.",
+    
     logoPath: "/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
+    title: "Backend Developer",
+    date: "April 2023 - Present",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
+      "Led the development of Backend of web applications, focusing on scalability.",
       "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Contributed to many projects that are being used inside of college and our coding community.",
     ],
   },
   {
-    review: "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "/images/exp3.png",
+    review: "I have worked on Notions clone which brought me a high level of quality and efficiency to understand and learn different purposes and usages.",
+   
     logoPath: "/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
+    title: "NEXT JS Developer",
+    date: "March 2024 - April 2025",
     responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
+      "Built Notion using NEXTjs.",
+      "Worked on a SaaS web app.",
+      "Coordinated with many other developers and gained thorough experience.",
     ],
   },
 ];
@@ -248,19 +245,44 @@ const socialImgs = [
   {
     name: "insta",
     imgPath: "/images/insta.png",
+    link: "https://www.instagram.com/_galeriade_sahil?igsh=MXNmY3dpZzI4M2FmYg=="
   },
   {
     name: "fb",
     imgPath: "/images/fb.png",
+    link: "https://www.facebook.com/share/1AWZUV2ebw/"
   },
   {
-    name: "x",
+    name: "github",
+    imgPath: "/images/github.png",
     imgPath: "/images/x.png",
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
   },
+];
+
+const projects = [
+  {
+    name: "Sabzee",
+    type: "Web Application",
+    image: "/public/images/project1.png",
+    link: "https://sabzee.com"
+  },
+  {
+    name: "Notion clone",
+    type: "Web Application",
+    image: "portfolio\public\images\project2.png",
+    link: "https://prodeus.com"
+  },
+  {
+    name: "CodeFlow",
+    type: "Development Tool",
+    image: "portfolio\public\images\project3.png",
+    link: "https://codeflow.dev"
+  },
+  
 ];
 
 export {
@@ -275,4 +297,5 @@ export {
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
 };
