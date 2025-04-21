@@ -255,12 +255,13 @@ const socialImgs = [
   {
     name: "github",
     imgPath: "/images/github.png",
-    imgPath: "/images/x.png",
+    link: "https://github.com/Sahil-047" // Replace with your GitHub profile URL
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
-  },
+    link: "https://linkedin.com/in/yourusername" // Replace with your LinkedIn profile URL
+  }
 ];
 
 const projects = [
