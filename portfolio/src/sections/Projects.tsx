@@ -20,21 +20,21 @@ export const projects: Project[] = [
     name: "Sabzee",
     type: "Full Stack AI powered Web ",
     link: "https://portfolio-3d.vercel.app",
-    image: "/public/images/project1.png",
+    image: "/images/project1.png",
     description: "A modern portfolio website built with Next.js, Three.js, and Framer Motion"
   },
   {
     name: "Notion clone",
     type: "Full Stack Application",
     link: "https://ai-platform.demo",
-    image: "/public/images/project3.png",
+    image: "/images/project3.png",
     description: "AI-powered content generation platform with real-time collaboration"
   },
   {
     name: "Employee management system",
     type: "Full Stack Web Application",
     link: "https://ecommerce-store.demo",
-    image: "/public/images/project2.png",
+    image: "/images/project2.png",
     description: "Modern e-commerce platform with 3D product visualization"
   }
 ];
